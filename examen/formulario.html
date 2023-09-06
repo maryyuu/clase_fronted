@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/examen/examen.css">
+    <style>
+        table,
+        tr,
+        td,
+        th {
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <h2>Desarrollo de aplicaciones en software</h2>
+
+    <form name="Datos aprendiz"  action="">
+        <section id="datos">
+        <fieldset >
+            <legend>Datos Aprendiz</legend>
+        <label for="">Identificacion:
+        <input type="number" required></label>
+        &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="Color">¿Cual es su color Favorito?:</label>
+        <input type="color" name="Color" id="Color"  value="#33FF66">
+                <option value="" style="background-color: calc();"></option>
+        <label for=""> Nombre:
+            <input type="text" name="nombre" id="nombre" required>
+        </label>
+        &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="">Email
+        <input type="email" name="email" id="email">
+        </label>
+        <br>
+        <label for="">Genero</label><br>
+       
+<input type="radio" id="fe" name="genero"> 
+<label for="">Masculino
+        </label><br>
+        <input type="radio" id="ma" name="genero">
+        <label for="">Femenio    
+        </label> <br>
+<label for="MiFecha"> Fecha de Nacimiento
+    <input type="date" id="MiFecha" name="NameFecha" value="1900-12-31" min="2023-12-31" max="2024-01-01" required
+        pattern="\D{4}-\d{2}-d{2}">
+</label>
+&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div class="formuu">
+<label for="" class="pestaña" > 
+    <a href="../examen/formulario2.html#avances">Carga Avance</a>  
+    </label>
+</div>
+</section>
+<section>
+        </fieldset>
+
+    <fieldset id="formulario">
+        <legend >DATOS PERSONALES</legend>
+        <label for="">¿Que Idiomas manejas?
+        <select name="idioma" id="idioma">
+            <option value=""selected>Selecciona</option>
+            <option value="Ingles"> Ingles
+            </option>
+            <option value="Portugues" >Portugues</option>
+            <option value="Frances">Frances</option>
+        </select>
+        </label><br><br>
+        <label for="">Lenguaje de programacion
+            <br>
+            <input type="checkbox">php
+            <br>
+            <input type="checkbox">Java
+            <br>
+            <input type="checkbox">JavaScrip
+        </label>
+        
+        <label for="" id="hora"> Hora de Entrevista
+            <input type="time" value="00:00:pm/am" pattern="" >
+        </label>
+      </fieldset>
+    </section>
+    <br>
+<input type="submit" name="enviar" id="enviar" value="Enviar"> 
+<input type="reset" value="Borrado" id="borrar">
+<br>
+<section >
+<fieldset id="perfil">
+    <legend>Perfil</legend>
+    <img src="../examen/redesSocieales.png" alt="" width="40%" id="imagen">
+<br>
+    <label for="Imagen">
+    <input type="file" id="Imagen" name="Imagenn" accept=".jpg, .png, .jpeg" value="" multiple>
+</label>
+
+<div>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    id
+                </td>
+                <td>Hobby Favorita</td>
+                <td>Estudios</td>
+            </tr>
+            <tr>
+                <td>
+                    2312
+                </td>
+                <td>Musica</td>
+                <td>Bachiller</td>
+            </tr>
+            <tr>
+                <td>3245</td>
+                <td>Deporte</td>
+                <td>Profesional</td>
+            </tr>
+            <tr>
+                <td>9463</td>
+                <td>Deporte y musica</td>
+                <td>tecnologo</td>
+            </tr>
+            <tr>
+                <td>99846</td>
+                <td>Patinar</td>
+                <td>Tecnico</td>
+            </tr>
+            <tr>
+                <td>2103</td>
+                <td>Cantar</td>
+                <td>Escuela</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+    </section>
+</fieldset>
+
+</form>     
+
+
+</body>
+</html>

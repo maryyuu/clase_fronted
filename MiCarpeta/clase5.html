@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <br>
+    <form name="Mi Formulario" id=" form1" action="">
+        <fieldset>
+            <legend>MIS DATOS PRINCIPALES</legend>
+        <label for="">Nombre de usuario:</label>
+        <input type="text" name="username" id="username" placeholder="Mi Nombre" required>
+        <br>
+        <label for=""> Contraseña:
+            <input type="password" name="Password" id="Password">
+        </label>
+        <br>
+        <label for="">Email:
+            <input type="email" name="email" id="email">
+        </label>
+        <label for="MiFecha"> Fecha de Nacimiento.one
+            <input type="date" id="MiFecha" name="NameFecha" value="2000-09-22" min="1999-01-01" max="2024-01-01"
+                required pattern="\D{4}-\d{2}-d{2}">
+        </label>
+        <br>
+        <label for="">Estudio en:</label>
+        <select name="ciudad" id="ciudad">
+            <option value="">Selecciona</option>
+            <option value="Popayan"> Popayan
+            </option>
+            <option value="Pasto" selected>Pasto</option>
+            <option value="Bolivar">Bolivar</option>
+        </select>
+        <select name="" id="">
+            <optgroup label="1.Requerimientos">
+                <option value="Sprint">Sprint 1.1</option>
+                <option value="Sprint2">Sprint 1.2</option>
+            </optgroup>
+            <optgroup label="2.Base De Datos">
+                <option value="MRa1">Modelo 2.1</option>
+                <option value="Mra2">Modelo 2.2</option>
+            </optgroup>
+            <optgroup label="3.FRONTED" style="background-color: aqua;">
+                <option value="HTML">HTML 3.1</option>
+                <option value="CSS">CSS 3.2</option>
+            </optgroup>
+        </select>
+        <br>
+        <label for="">Edad</label>
+        <input type="number" min="0" max="100" step="1" name="Edad" id="Edad">
+        <br>
+        <label for="Phone">Phone</label>
+        <input type="tel" name="Telelfeno" id="Phone">
+    </fieldset>
+    <fieldset>
+        <legend> <b> DATOS SECUNDARIOS</b> </legend>
+        <label for=""> <b> Estudia: </b></label>
+    <br>
+        <label for="">FrontEnd</label>
+        <input type="radio" name="nivel" id="back">
+        <label for="">Backend</label>
+        <input type="radio" name="nivel" id="Back">
+        <label for="">Base De Datos</label>
+        <input type="radio" name="nivel" id="datos">
+        <label for="">Requerimientos</label>
+        <input type="radio" name="nivel" id="requi">
+    <br>
+    <label for=""> <b> Le Encanta programar en:</b> </label>
+    <br>
+    <input type="checkbox" name="lenguaje" id="JS">
+    <label for="">JavaScrip</label>
+    <input type="checkbox" name="lenguaje" id="pHp">
+    <label for="">pHp</label>
+    <input type="checkbox" name="lenguaje" id="Python">
+    <label for="">Python</label>
+    <input type="checkbox" name="lenguaje" id="Java">
+    <label for="">Java</label>
+    <input type="checkbox" name="lenguaje" id="C++">
+    <label for="">C++</label>
+        <label for="">Me encanta el Color</label>
+        <input type="color" value="#216656" name="Color" id="Color">
+        <br>
+        <textarea name="Comentarios" id="Comentarios" cols="30" rows="10" placeholder="Coloca el texto"
+        style="resize:none"></textarea>
+        <br>
+        <label for="MyNavegador">En que navegador prefiere trabajar</label>
+        <input list="Navegador" id="MyNavegador" name="MyNavegador">
+        <datalist id="Navegador">
+            <option value="Chrome"></option>
+            <option value="FireFox"></option>
+            <option value="Safari"></option>
+            <option value="OPera"></option>
+        </datalist>
+        <br>
+        <label for="date">hora reunion</label>
+        <input type="time" name="date" id="date" list="hora">
+        <datalist id="hora">
+            <option value="10:20"></option>
+            <option value="11:11"></option>
+            <option value="22:30"></option>
+            <option value="15:30"></option> 
+            <option value="Otras"></option>
+        </datalist>
+
+        <label for="Preferencia">Preferencia</label>
+        <input type="range" min="5" max="10" step="0.01" style="height:50px; width: 150px;">
+<label for="Color">Seleccione Color</label>
+<input type="color" name="Color" id="Color" list="colorr" value="#33FF66">
+<datalist id="colorr">
+    <optgroup label="Seleccione Color">
+    <option value="#FF0000"></option>
+    <option value="#CC0000"></option>
+    <option value="#990000"></option>
+    <option value="#660000"></option>
+    <option value="Otros" style="background-color: calc();"></option>
+    </optgroup>
+</datalist>
+<br>
+<label for="Imagen">Origen Imagen</label>
+<input type="file" id="Imagen" name="Imagenn" accept=".jpg, .png, .jpeg" value="" multiple>
+    </fieldset>
+<input type="submit" name="enviar" id="enviar" value="Aceptar">
+<input type="reset" value="Borrado" id="borrar">
+    </form>
+
+
+
+
+
+</body>
+
+</html>
