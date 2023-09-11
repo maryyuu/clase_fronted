@@ -1,0 +1,19 @@
+*{
+    background-color: black;
+}
+.a{
+    color: white;
+    text-decoration: none;
+}
+.b{
+    color: white;
+    text-decoration: none;
+  
+}
+.espacio{
+    word-spacing: 40px;
+}
+.c{
+    color: white;
+    transform: translate(5px,1px);
+}

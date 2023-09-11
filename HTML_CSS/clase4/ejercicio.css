@@ -1,0 +1,79 @@
+.caja1 {
+    padding: 15px;
+    background-color: rgb(201, 80, 0);
+ height: auto;
+}
+
+.caja2 {
+    padding: 5px;
+    background-color: white;
+    height: 430px;
+}
+.caja3{
+    width: auto;
+    border-radius: 50px;
+    background: url(/practica/atardecer.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+height: 390px;
+}
+
+.caja4{
+    border-radius: 10px 10px 0px 0px /50%;
+  transform: translate(0px, 20px);
+width: 100%;
+height: 50px;
+background-color: black;
+border: 1px solid black;
+display: inline-block;
+
+}
+
+.caja5{
+    background: url(./rayas.png);
+    margin: 0.5px;
+    height: 50px;
+}
+.visa{
+    width: 50px;
+    transform: translate(80px, -30px);
+}
+.texto3{
+    transform: translate(0px,5px);
+    color: white;
+    text-align: center;
+}
+.texto{
+    color: white;
+    text-align: center;
+    transform: translate(0px,-15px);
+}
+.text{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+        font-family: 'Press Start 2P', cursive;
+        font-family: 'Rubik Iso', cursive;
+        display: inline-block;
+        word-spacing: 50px;
+        transform: translate(280px, -30px);
+
+}
+.banco{
+    transform: translate(180px, -90px);
+    color: white;
+}
+.texto2{
+
+    width: 400px;
+    display: block;
+color: white;
+transform: translate(430px, -150px);
+}
+.texto4{
+    color: white;
+    transform: translate(10px, -50px);
+}
+.maryu{
+    transform: translate(100px, -35px);
+}
