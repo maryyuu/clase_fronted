@@ -1,25 +1,30 @@
 .caja1 {
     padding: 15px;
     background-color: rgb(201, 80, 0);
- height: auto;
+
+
+
 }
 
 .caja2 {
     padding: 5px;
     background-color: white;
-    height: 430px;
+
 }
 .caja3{
     width: auto;
     border-radius: 50px;
-    background: url(/practica/atardecer.jpg);
+    background: url(./fono.jpg);
     background-size: cover ;
     background-repeat: no-repeat;
     border: 2px solid black;
 height: 390px;
+
 }
 
 .caja4{
+    display: flex;
+        max-width: 900px;
     border-radius: 10px 10px 0px 0px /50%;
   transform: translate(0px, 20px);
 width: 100%;
@@ -27,6 +32,7 @@ height: 50px;
 background-color: black;
 border: 1px solid black;
 display: inline-block;
+max-width: 900px;
 
 }
 
@@ -35,9 +41,21 @@ display: inline-block;
     margin: 0.5px;
     height: 50px;
 }
+.caja7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja8{
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    flex-wrap: wrap;
+
+
+}
 .visa{
     width: 50px;
-    transform: translate(80px, -30px);
 }
 .texto3{
     transform: translate(0px,5px);
@@ -45,30 +63,32 @@ display: inline-block;
     text-align: center;
 }
 .texto{
-    color: white;
+    color: rgb(245, 245, 245);
     text-align: center;
     transform: translate(0px,-15px);
 }
 .text{
-    color: black;
+text-overflow: hidden;
+    color: rgb(255, 255, 255);
+    display: flex;
+  justify-content: center;
+  align-items: center;
     font-family: 'Oswald', sans-serif;
         font-family: 'Press Start 2P', cursive;
         font-family: 'Rubik Iso', cursive;
-        display: inline-block;
-        word-spacing: 50px;
-        transform: translate(280px, -30px);
+word-spacing: 90px;
 
 }
-.banco{
-    transform: translate(180px, -90px);
-    color: white;
-}
+
 .texto2{
 
     width: 400px;
     display: block;
 color: white;
-transform: translate(430px, -150px);
+display: flex;
+text-overflow: hidden;
+
+transform: translate(430px, -120px);
 }
 .texto4{
     color: white;
@@ -76,4 +96,25 @@ transform: translate(430px, -150px);
 }
 .maryu{
     transform: translate(100px, -35px);
+}
+.vis{
+    
+    width: 60px;
+    transform: translate(550px, 50px);
+}
+.banco2{
+    color: aliceblue;
+    transform: translate(620px,-20px);
+}
+.chip{
+    width: 80px;
+}
+.text2{
+    color: aliceblue;
+    word-spacing: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+}
+.texto4{
+    color: aliceblue;
 }

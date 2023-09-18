@@ -1,0 +1,62 @@
+     .contenedor{
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.caja1{
+    background-color: blue;
+    width: 100px;
+
+    
+    color: white;
+    font-weight: bold;
+    border: 2px solid red;
+
+}
+a[href="https: //Maryuri.co"]
+{
+    color: aqua;
+}
+[maryuri-1~="raider"] {
+    background-color: blue;
+}
+[maryuri-2|="geovany"]{
+    background-color: blue;
+}
+[maryuri-3^="http://"] {
+    background-color: blue;
+}
+[maryuri-1$=".com"] {
+   font-weight: bold;
+}
+[maryuri-1*=".edu"] {
+    font-style: italic;
+}
+#contenedormar p{
+    color: yellow;
+}
+#contenedormar > section {
+    color: red;
+}
+#contenedormar ~ div {
+    color: blue;
+}
+.efecto:hover{
+background-color: blueviolet;
+}
+input:read-only{
+    background-color: aqua;
+}
+input:required{
+    border: 2px solid greenyellow;
+}
+.passeud::after{
+    content: "Trabanjando css";
+}
+.passeud::first-letter{
+    color: red;
+}
