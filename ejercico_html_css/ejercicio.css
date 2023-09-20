@@ -1,14 +1,18 @@
 .contene_mayor{
      margin: 10px;
-     padding: 30px;
+padding: 30px;
 border: 2px solid;
-width: max-content;
+max-width: max-content;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
 
 }
 .contenedor{
     display: flex;
-    gap: 10px;
     flex-wrap: wrap;
+    gap: 10px;
+
 }
 .dado{
     width: 150px;
@@ -85,24 +89,47 @@ align-items: center;
 .triki{
     display: flex;
     width:50px;
+    height: 80px;
 
 }
 .a{
     border-bottom: 2px solid;
     border-top: 2px solid;
 }
+.textoo{
+   max-width: min-content;
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: center;
+}
 .texto1{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 200px;
+    margin-bottom: 10px;
     border: 2px solid; 
-    width: 700px;
+    max-width: max-content;
     display: flex;
     flex-wrap: wrap;
-    justify-content: right;
-    align-items: center;
+
    
 }
 .con_tri_text{
   padding: 10px;
-    border: 2px solid;
     display: flex;
+    flex-wrap: wrap;
+}
+.texto2{
+    overflow: hidden;
+    border: 2px solid;
+    margin-left: 200px;
+   max-width: max-content;  
+     height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    writing-mode: vertical-rl;
+
 }
 
