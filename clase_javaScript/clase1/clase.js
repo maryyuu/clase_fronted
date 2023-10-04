@@ -32,13 +32,16 @@ if (x <= 0.0) {
 } else { 
     console.log("NUMEROS ENTEROS")
 }*/
+let numero = 1;
 var acomulado =0
 var contador = 0
-while () {
-    var numeros = prompt("numeros")
-    if (numeros==0) {
-        acomulado = acomulado + numeros
-        console.log(acomulado)
-    }
+while (numero!=0) {
+    numero = parseInt(prompt("Digite un numero"))
+    acomulado+=numero
+    
+    contador++
     
 }
+
+console.log("acumulado"+acomulado)
+console.log("contador"+contador)
