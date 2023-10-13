@@ -17,6 +17,7 @@ const Card = () => {
             </figure>
             <p className=" flex justify-between">
                 <span className="text-sm font-light text-white">Celular</span>
+                <span className="text-lg font-medium text-white">500.000</span>
             </p>
             
         </div>
