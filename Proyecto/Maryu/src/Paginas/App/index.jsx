@@ -1,9 +1,10 @@
 import { useRoutes, BrowserRouter } from 'react-router-dom'
+import Navbar from '../../Components/Navbar'
 import Home from '../Home'
 import Contact from '../Contact'
 import NotFound from '../NotFound'
 import './App.css'
-import Navbar from '../../Components/Navbar'
+
 
 const AppRoutes = () => {
     let routes = useRoutes(
@@ -19,7 +20,9 @@ const App = () => {
     return (
         <BrowserRouter>
             <AppRoutes />
-            <Navbar/>
+            
+            <Navbar />
+            
         </BrowserRouter>
     )
 }
