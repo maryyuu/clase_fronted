@@ -6,32 +6,33 @@ const Navbar = () => {
             <ul className="flex items-center gap-3">
                 <li className="font-semibold text-lg gap-3">
                 <NavLink to='/'>
-                    className={({ isActive }) => isActive ? activeStyle : undefinded}>
+                    className={({ isActive }) => isActive ? activeStyle : undefinded}
+                    
                     Maryu
                     </NavLink>
                 </li>
                 <li>
-                    <Narvbar to='/home'
+                    <NavLink to='/home'
                         className={({isActive})=> isActive ? activeStyle :undefined }
                     >
                         Inicio
-                    </Narvbar>
+                    </NavLink>
                 </li>
 
                 <li>
-                    <Narvbar to='/contacto'
+                    <NavLink to='/contacto'
                         className={({ isActive }) => isActive ? activeStyle : undefined}
                     >
                         Contacto
-                    </Narvbar>
+                    </NavLink>
                 </li>
 
                 <li>
-                    <Narvbar to='/*'
+                    <NavLink to='/*'
                         className={({ isActive }) => isActive ? activeStyle : undefined}
                     >
                         Not Found
-                    </Narvbar>
+                    </NavLink>
                 </li>
             </ul>
         </nav>)
