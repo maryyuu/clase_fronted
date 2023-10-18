@@ -7,7 +7,9 @@ function Home() {
             <Layout >
                 <div className='font-semibold text-center'>HOME</div>
                 <div className="flex flex-wrap m-10 gap-10">
-                <Card />
+                    <div>HOLAAA</div>
+                    <Card />
+                    
                 <Card />
                 <Card />
                     <Card />
