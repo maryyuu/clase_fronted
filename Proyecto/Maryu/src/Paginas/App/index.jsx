@@ -1,9 +1,13 @@
 import { useRoutes, BrowserRouter } from 'react-router-dom'
+import './App.css'
 import Navbar from '../../Components/Navbar'
 import Home from '../Home'
 import Contact from '../Contact'
 import NotFound from '../NotFound'
-import './App.css'
+import { CartContextProvider } from '../../Context'
+
+//import CheckoutSideMenu from '../../Components/CheckoutSideMenu'
+
 
 
 const AppRoutes = () => {
@@ -16,14 +20,15 @@ const AppRoutes = () => {
     )
     return routes
 }
-const App = () => {
+function App() {
     return (
-        <BrowserRouter>
-            <AppRoutes />
-            
-            <Navbar />
-            
-        </BrowserRouter>
+        <CartContextProvider>
+            <BrowserRouter>
+                <AppRoutes />
+                <Navbar />
+
+            </BrowserRouter>
+        </CartContextProvider>
     )
 }
 export default App
